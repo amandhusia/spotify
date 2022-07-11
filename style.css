@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+font-family: 'Ubuntu',sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 60px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 77vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    
+    margin: 15px auto;
+    width: 72%;
+    border-radius: 10px;
+    padding: 0;
+   
+    background-image: url('wallpaper.jpg');
+}
+.bottom {
+    position: absolute;
+    height: 50px;
+    width: 900px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.icons{
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+
+#myprogressBar{
+    width: 80vw;
+   cursor: pointer;
+
+}
+.songIteam{
+height: 30px;
+display: flex;
+background-color: white;
+width: 100%;
+color: black;
+margin: 12px;
+border-radius: 10px;
+}
+
+.songIteam img{
+    border-radius: 35px;
+
+}
+.timestamp{
+    margin: 0 23px;
+
+}
+.timestamp i{
+    cursor: pointer;
+}
